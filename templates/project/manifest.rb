@@ -13,6 +13,6 @@ basedir = '../../vendor/assets'
 end
 
 # Javascripts
-%w(alert button carousel collapse dropdown modal popover scrollspy tab tooltip transition typeahead).each do |file|
-  javascript "#{basedir}/javascripts/bootstrap-#{file}.js", :to => "bootstrap-#{file}.js"
+%w(alert collapse dropdown engine misc modal popover tabview tooltip typeahead).each do |file|
+  javascript "#{basedir}/javascripts/gallery-bootstrap-#{file}.js", :to => "bootstrap-#{file}.js"
 end
